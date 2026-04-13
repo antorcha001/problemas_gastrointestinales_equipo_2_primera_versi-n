@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+    background: rgb(31, 31, 31);
+}
+
+.flexbox{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_item{
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.conteiner_card{
+    display: flex;
+    margin: 12px;
+}
+
+@media screen and (max-width: 300px){
+    .tarjeta1{
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        border-radius: 20px;
+        align-content: center;
+        box-shadow: 0 0 15px rgb(0, 0, 0);
+    }
+}
+
+.tarjeta1{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 15px;
+    text-align: center;
+    border-radius: 20px;
+    align-content: center;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+img{
+    border-radius: 50%;
+    margin: 7px;
+    height: 40%;
+    width: 40%;
+}
+
+h3{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.linea{
+    background-color: rgb(94, 94, 94);
+    width: 60%;
+    height: 3px;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 50%;
+}
+
+h4{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+    margin: 10px;
+}
+
+@media screen  and (min-width: 1024px){
+
+    .container_card{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+.tarjeta1{
+        max-width: 400px;
+        min-width: 400px;
+        min-height: 412px;
+        max-height: 412px;
+        margin: 15px;
+    }
+
+}
+
+p{
+        text-wrap: pretty;
+}
+
+/*-----------------------------------------------barra de navegacion-----------------------------------------------*/
+
+    .container-nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff15;
+        width: 100vw;
+    }
+
+    .container-buton{
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 300px;
+        max-height: 40px;
+        margin: 2px 0px;
+        padding: 10px 0px;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: rgb(126, 126, 126);
+    }
+
+    li{list-style: none;}
+
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin: 0px 15px;
+    }

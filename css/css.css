@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(31,31,31);
+    margin: 0%;
+    font-family: sans-serif;
+    color: rgb(245, 245, 245);
+    width: 100vw;
+}
+
+/*--------------------------------------------------encavezado--------------------------------------------------*/
+
+    
+    .fondo_foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: url("../img/fondo.jpg") top / cover fixed;
+    }
+
+
+    .foto {
+    width: 100%;
+    height: 50vh;
+    padding-top: 50vh;
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(black 7vh, transparent);
+    }
+
+    h2, h3, h4, h5{
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        padding: 15px;
+        margin: 0%;
+    }
+
+/*------------------------------------------------barra de navegacion------------------------------------------------*/
+
+    .container-nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #ffffff15;
+        width: 100vw;
+    }
+
+    .container-buton{
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 300px;
+        max-height: 25px;
+        margin: 2px 0px;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    li{list-style: none;}
+
+    img{
+        width: 25px;
+        height: 25px;
+        margin: 0px 15px;
+    }
+
+    /*--------------------------------------------------introduccion--------------------------------------------------*/
+
+    .intro{
+        margin: 10px;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px#b6b6b6;
+    }
+
+    p{
+        text-wrap: pretty;
+        font-size: 14;
+        margin: 15px;
+        padding: 10px ;
+        text-align: center;
+    }
+
+    .container-intro{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*------------------------------------------------------indice------------------------------------------------------*/
+
+    .container-indice, .container-enfermedades, .container-ecoli, .container-subtiposec, .container-sintomasec, .conteiner-campylobacter{
+        margin: 10px;
+    }
+
+    .indice, .enfermedades, .ecoli, .sintomasec, .causasec, .campylobacter{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid gray;
+    } 
+
+
+    .title-indice{
+        font-size: 20px;
+        text-align: center;
+        margin: 0%;
+    }
+
+    ul{
+        margin: auto;
+        margin-bottom: 15px;
+        padding: 0%;
+    }
+
+    .containerline{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+
+    .line{
+        background-color: #b6b6b671;
+        border-radius: 50%;
+        height: 3px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    a:hover{
+        color: rgb(126, 126, 126);
+    }
+
+    /*------------------------------------------------subtipos de ecoli------------------------------------------------*/
+
+    .container-subtiposec, .subcam{
+        background-color: rgb(49, 49, 49);
+        border-radius: 30px;
+        margin: 10px;
+        box-shadow: 0px 0px 5px rgb(78, 78, 78);
+    }
+
+    .sub, .subcma{
+        background-color: rgb(78, 78, 78);
+        margin: 15px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 5px white;
+    }
+
+    /*-----------------------------------------------sintomas del e.coli-----------------------------------------------*/
+
+    .list{list-style: inside;}
+
+    /*-------------------------------------------vercion para computadoras-------------------------------------------*/
+
+    @media screen and (min-width: 1024px){
+
+        body{
+            background-color: rgb(31, 31, 31);
+        }
+
+        .container-all{
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+        }
+
+        .container-intro{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .intro{
+            width: 70%;
+            margin: auto;
+        }
+
+    .indice, .enfermedades, .ecoli, .sintomasec, .causasec, .campylobacter{
+        width: 60%;
+        margin: auto;
+        } 
+
+        .imagen-encavezado{
+        background: url()top / cover fixed;
+        width: 100vw;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        }
+
+        .container-nav{
+            height: 40px;
+        }
+
+        .container-buton{
+            padding: 10px 0px;
+        }
+
+        img{
+            height: 38px;
+            width: 38px;
+            padding: 2px 0px;
+        }
+
+        .copi{
+        background-color: rgb(85, 85, 85);
+        border-top: 1px solid rgba(255, 255, 255, 0.774);
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    }
+
+        
+        .copi{
+        flex-direction: row;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .redd{
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+    }
+
